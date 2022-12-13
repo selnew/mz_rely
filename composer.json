@@ -1,0 +1,29 @@
+{
+    "name": "mirze/mz_rely",
+    "description": "rely on packages composer",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "mirze",
+            "email": "mirzeAdv@163.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "@stable"
+    },
+    "autoload": {
+        "psr-4": {
+            "mzclass\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "mzclass\\": "src/"
+        }
+    }
+}
